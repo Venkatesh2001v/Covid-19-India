@@ -49,6 +49,8 @@ const convertDistrictDbObjectToResponseObject = (dbObject) => {
   };
 };
 
+#API 1
+
 app.get("/states/", async (request, response) => {
   const getStatesQuery = `
     SELECT
